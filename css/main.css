@@ -8419,16 +8419,16 @@ a:hover, a:focus {
 }
 
 .coming-soon::before {
-  background-image: url("../img/coming-soon.jpg");
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+  background-image: url("../img/picture/first-banner/comming-soon-bg.png");
+  /* -webkit-filter: grayscale(1);
+          filter: grayscale(1); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .coming-soon::before {
-    background-image: url("../img/coming-soon@2x.jpg");
+    background-image: url("../img/picture/first-banner/comming-soon-bg.png");
   }
 }
 
